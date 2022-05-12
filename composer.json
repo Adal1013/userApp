@@ -1,0 +1,22 @@
+{
+    "name": "adal/user-app",
+    "description": "Proyecto Test Solati",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/Helpers/helpers.php",
+            "routes/web.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Adal",
+            "email": "adalbertoavila1013@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
